@@ -1,0 +1,855 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+}
+
+#nav{
+    background-color: forestgreen;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#nav div a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+    height: auto;
+}
+
+#agromarket{
+    font-size: 36px;
+}
+
+#prd{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#prd:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#about{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#about:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#imp{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#imp:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#viruses{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+}
+
+#viruses:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#contact{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#contact:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#carouselExample div img{
+    height: 48vw;
+    margin-top: 70px;
+}
+
+@media(min-width: 1420px){
+    #carouselExample div img{
+        height: 1200px;
+    }
+}
+
+#sec{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+#product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+
+#langA{
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    display: grid;
+    place-items: center;
+}
+
+h3{
+    text-shadow: 2px 2px 2px green;
+}
+
+.pDiv{
+    width: 320px;
+    height: 350px;
+}
+
+.pDiv:hover{
+    border: 5px solid seagreen;
+    border-radius: 15px;
+    transition: .3s all;
+}
+
+#h1{
+    color: white;
+    text-shadow: 3px 5px 4px green;
+}
+
+#sec div{
+    background-color: rgba(172, 255, 47, 0.065);
+}
+
+#card1:hover{
+    border: 2px solid green;
+    border-radius: 10%;
+    transition: .5s all;
+}
+
+#card1 div{
+    border: none;
+}
+
+#card1{
+    max-width: 290px;
+}
+
+p{
+    font-size: 30px;
+}
+
+#virus{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#three{
+    width: 100%;
+    height: 100vh;
+    background-color: seagreen;
+}
+
+#virus div{
+    width: 320px;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#lang{
+    width: 170px;
+    background-color: rgba(255, 255, 255, 0.391);
+}
+
+#lang li a{
+    color: forestgreen;
+    width: 100%;
+}
+
+#lang li a:hover{
+    transition: all .3s;
+    background-color: forestgreen;
+    color: white;
+}
+
+#dropendown li img{
+    width: 40px;
+    height: 40px;
+}
+
+#dropendown li a{
+    color: green;
+}
+
+#dropendown li a:hover{
+    color: white;
+    background-color: rgba(0, 128, 0, 0.551);
+    transition: all .2s;
+}
+
+#dropendown{
+    background-color: rgba(255, 255, 255, 0.241);
+}
+
+.lang{
+    width: 40px;
+    height: 40px;
+}
+
+#results{
+    width: 100%;
+    height: 400vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+#results h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    height: 10vh;
+}
+
+.resultsdiv{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid black;
+}
+
+.resultsdiv h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px 8px black;
+}
+
+#aboutsec{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./about.jpg);
+    background-size: cover;
+}
+
+#importers{
+    width: 100%;
+    background-color: white;
+}
+
+#importers div img{
+    width: 100%;
+    height: 50vw;
+}
+
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer h2{
+    color: white;
+    text-align: center;
+    text-shadow: 6px 3px 5px;
+    padding-top: 30px;
+}
+
+#ferts{
+    background-image: url(./fertilazer\ walpaper.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+}
+
+#pests{
+    background-image: url(./pesticides\ walpaper.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+}
+
+#seeds{
+    background-image: url(./seeds\ walpaper.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+}
+
+#first{
+    width: 320px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#second{
+    width: 320px;
+    height: 200px;
+    text-align: center;
+}
+
+#Divider{
+    margin: 10px 0px 10px 0px;
+}
+
+#gmail{
+    color: white;
+    text-shadow: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#gmail a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+#phone{
+    color: white;
+    text-shadow: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#phone a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+h6{
+    color: rgb(77, 77, 77);
+}
+
+h6 a{
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+#fertdiv{
+    width: 100%;
+    height: 180vh; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+
+.fertcard{
+    width: 250px;
+    height: 400px;
+    background-color: rgba(34, 139, 34, 0.6);
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+#pestdiv{
+    width: 100%;
+    height: 180vh; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+
+.pesticidcard{
+    width: 250px;
+    height: 400px;
+    background-color: rgba(255, 134, 0, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+#seedsdiv{
+    width: 100%;
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#exemples{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.seedcard{
+    width: 230px;
+    height: 300px;
+    background-color: rgba(214, 197, 142, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#exempleSeed{
+    width: 300px;
+    height: 480px;
+    background-color: rgba(214, 197, 142, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#exempleSeed img{
+    width: 280px;
+    height: 400px;
+}
+
+#exempleSeed:hover{
+    /* width: 320px;
+    height: 510px; */
+    transform: scale(1.1);
+    transition: all , .6s;
+}
+
+#exempleSeed img:hover{
+    /* width: 300px;
+    height: 410px; */
+    transition: all , .6s;
+}
+
+.more{
+    width: 230px;
+    height: 300px;
+    background-color: rgba(214, 197, 142, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.more h1:hover{
+    cursor: pointer;
+    background-clip: text;
+    background-repeat: no-repeat;
+    -webkit-text-stroke-color: green;
+    -webkit-text-stroke-width: 0.02em;
+    -webkit-text-fill-color: white;
+    -webkit-transition: background-size 1s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition: background-size 1s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition: all , .4s;
+    text-shadow: 4px 8px 12px forestgreen;
+}
+
+.more h1 {
+    --s: 0.16em;   /* the thickness of the line */
+    --c: green; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+}
+
+#cardp{
+    font-size: 23px;
+}
+
+.more h1:hover {--_p: 100%}
+  
+.more h1 {
+    font-family: system-ui, sans-serif;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+#second h6{
+    color: rgb(77, 77, 77);
+}
+
+#second h4{
+    color: rgb(77, 77, 77);
+}
+
+.seedcard img{
+    width: 200px;
+    height: 300px;
+}
+
+#pestimg{
+    width: 150px;
+    height: 260px;
+    text-transform: unset;
+}
+
+.seedcard:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+span{
+    margin-top: 160px;
+    text-align: center;
+}
+
+#span{
+    width: 300px;
+    padding-top: 150px;
+    text-align: center;
+    display: block;
+}
+
+#third_seed{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+#second_pest{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+#first_fert{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+#aboutdiv{
+    width: 320px;
+    height: 390px;
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.439);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 20px 10px 20px;
+}
+
+#aboutdiv img{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    top: -80px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+#virus div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav{
+    height: auto;
+}
+
+.firstfertcard{
+    width: 310px;
+    height: 460px;
+    border: 5px solid green;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 30px;
+    position: relative;
+}
+
+#firstfertcarddiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+#secpestcarddiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.secpestcard{
+    width: 310px;
+    height: 460px;
+    border: 5px solid green;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 30px;
+    position: relative;
+}
+
+.thirdseedcard{
+    width: 310px;
+    height: 460px;
+    border: 5px solid green;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 30px;
+    position: relative;
+}
+
+#thirdseedcarddiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+@media (max-width: 1225px) {
+    #sec{
+        height: auto;
+    }
+    #nav div a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1060px) {
+    #contact{
+        width: 100px;
+    }
+    #about{
+        width: 100px;
+    }
+    #prd{
+        width: 100px;
+    }
+    #menu{
+        width: 50px;
+        height: 50px;
+        position: sticky;
+        background-image: url(./menu-removebg-preview.png);
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1100px){   
+    #gerbdiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 995px){   
+    #lang{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: transparent; 
+        border: none;
+    }
+}
+
+@media (max-width: 900px) {
+    #three{
+        height: auto;
+    }
+    #virus{
+        height: auto;
+        gap: 50px;
+    }
+    #exempleSeed{
+        width: 300px;
+        height: 460px;
+        margin: 0px 20px 0px 0px;
+    }
+    #pests{
+        height: 200vh;
+    }
+    #ferts{
+        height: 200vh;
+    }
+    #seeds{
+        height: 200vh;
+    }
+    #seedsdiv{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #exemples{
+        width: 100%;
+    }
+    #aboutsec{
+        margin-top: 210vh;
+    }
+}
+
+@media (max-width:550px) {
+    .seedcard{
+        width: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    #three{
+        height: auto;
+    }
+    #virus{
+        height: auto;
+        gap: 50px;
+    }
+    #exempleSeed{
+        width: 300px;
+        height: 460px;
+        margin: 0px 20px 0px 0px;
+    }
+    #pests{
+        height: 200vh;
+    }
+    #ferts{
+        height: 200vh;
+    }
+    #seeds{
+        height: 200vh;
+    }
+    #seedsdiv{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .seedcard{
+        display: none;
+    }
+
+    #exemples{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #more1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    #more2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    #more3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    
+    #results{
+        height: 420vh;
+    }
+    #seeds{
+        height: 140vh;
+    }
+    #ferts{
+        height: 140vh;
+    }
+    #pests{
+        height: 140vh;
+    }
+    #aboutsec{
+        margin-top: 70px;
+    }
+    
+    #noneseed{
+        display: block;
+    }
+    #nonepest{
+        display: block;
+    }
+    #nonefert{
+        display: block;
+
+    }
+}
+  
+@media(max-width:445px){
+    #pesth1{
+        font-size: 26px;
+    }
+    #pesth2{
+        font-size: 26px;
+    }
+    #ferth1{
+        font-size: 26px;
+    }
+    #ferth2{
+        font-size: 26px;
+    }
+}
