@@ -1,0 +1,2875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ԱԳՐՈՄԱՐԿԵՏ ՍՊԸ | պարարտանյութեր | թունաքիմիկատներ | սերմեր</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+}
+
+#nav{
+    background-color: forestgreen;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#nav div a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+    height: auto;
+}
+
+#agromarket{
+    font-size: 36px;
+}
+
+#prd{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#prd:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#about{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#about:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#imp{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#imp:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#viruses{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+}
+
+#viruses:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#contact{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+
+}
+
+#contact:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: green;
+}
+
+#carouselExample div img{
+    height: 48vw;
+    margin-top: 70px;
+}
+
+@media(min-width: 1420px){
+    #carouselExample div img{
+        height: 1200px;
+    }
+}
+
+#sec{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+#product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+
+#langA{
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    display: grid;
+    place-items: center;
+}
+
+h3{
+    text-shadow: 2px 2px 2px green;
+}
+
+.pDiv{
+    width: 320px;
+    height: 350px;
+}
+
+.pDiv:hover{
+    border: 5px solid seagreen;
+    border-radius: 15px;
+    transition: .3s all;
+}
+
+#h1{
+    color: white;
+    text-shadow: 3px 5px 4px green;
+}
+
+#sec div{
+    background-color: rgba(172, 255, 47, 0.065);
+}
+
+#card1:hover{
+    border: 2px solid green;
+    border-radius: 10%;
+    transition: .5s all;
+}
+
+#card1 div{
+    border: none;
+}
+
+#card1{
+    max-width: 290px;
+}
+
+p{
+    font-size: 30px;
+}
+
+#virus{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#three{
+    width: 100%;
+    height: 100vh;
+    background-color: seagreen;
+}
+
+#virus div{
+    width: 320px;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#lang{
+    width: 170px;
+    background-color: rgba(255, 255, 255, 0.391);
+}
+
+#lang li a{
+    color: forestgreen;
+    width: 100%;
+}
+
+#lang li a:hover{
+    transition: all .3s;
+    background-color: forestgreen;
+    color: white;
+}
+
+#dropendown li img{
+    width: 40px;
+    height: 40px;
+}
+
+#dropendown li a{
+    color: green;
+}
+
+#dropendown li a:hover{
+    color: white;
+    background-color: rgba(0, 128, 0, 0.551);
+    transition: all .2s;
+}
+
+#dropendown{
+    background-color: rgba(255, 255, 255, 0.241);
+}
+
+.lang{
+    width: 40px;
+    height: 40px;
+}
+
+#results{
+    width: 100%;
+    height: 400vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+#results h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    height: 10vh;
+}
+
+.resultsdiv{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid black;
+}
+
+.resultsdiv h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px 8px black;
+}
+
+#aboutsec{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+}
+
+#importers{
+    width: 100%;
+    background-color: white;
+}
+
+#importers div img{
+    width: 100%;
+    height: 50vw;
+}
+
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer h2{
+    color: white;
+    text-align: center;
+    text-shadow: 6px 3px 5px;
+    padding-top: 30px;
+}
+
+#ferts{
+    background-image: url(../images/fertilazer\ walpaper.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+}
+
+#pests{
+    background-image: url(../images/pesticides\ walpaper.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+}
+
+#seeds{
+    background-image: url(../images/seeds\ walpaper.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+}
+
+#first{
+    width: 320px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#second{
+    width: 320px;
+    height: 200px;
+    text-align: center;
+}
+
+#Divider{
+    margin: 10px 0px 10px 0px;
+}
+
+#gmail{
+    color: white;
+    text-shadow: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#gmail a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+#phone{
+    color: white;
+    text-shadow: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#phone a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+h6{
+    color: rgb(77, 77, 77);
+}
+
+h6 a{
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+#fertdiv{
+    width: 100%;
+    height: 180vh; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+
+.fertcard{
+    width: 250px;
+    height: 400px;
+    background-color: rgba(34, 139, 34, 0.6);
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+#pestdiv{
+    width: 100%;
+    height: 180vh; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+
+.pesticidcard{
+    width: 250px;
+    height: 400px;
+    background-color: rgba(255, 134, 0, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+#seedsdiv{
+    width: 100%;
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#exemples{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.seedcard{
+    width: 230px;
+    height: 300px;
+    background-color: rgba(214, 197, 142, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#exempleSeed{
+    width: 300px;
+    height: 480px;
+    background-color: rgba(214, 197, 142, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#exempleSeed img{
+    width: 280px;
+    height: 400px;
+}
+
+#exempleSeed:hover{
+    /* width: 320px;
+    height: 510px; */
+    transform: scale(1.1);
+    transition: all , .6s;
+}
+
+#exempleSeed img:hover{
+    /* width: 300px;
+    height: 410px; */
+    transition: all , .6s;
+}
+
+.more{
+    width: 230px;
+    height: 300px;
+    background-color: rgba(214, 197, 142, 0.4);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.more h1:hover{
+    cursor: pointer;
+    background-clip: text;
+    background-repeat: no-repeat;
+    -webkit-text-stroke-color: green;
+    -webkit-text-stroke-width: 0.02em;
+    -webkit-text-fill-color: white;
+    -webkit-transition: background-size 1s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition: background-size 1s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition: all , .4s;
+    text-shadow: 4px 8px 12px forestgreen;
+}
+
+.more h1 {
+    --s: 0.16em;   /* the thickness of the line */
+    --c: green; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+}
+
+#cardp{
+    font-size: 23px;
+}
+
+.more h1:hover {--_p: 100%}
+  
+.more h1 {
+    font-family: system-ui, sans-serif;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+#second h6{
+    color: rgb(77, 77, 77);
+}
+
+#second h4{
+    color: rgb(77, 77, 77);
+}
+
+.seedcard img{
+    width: 200px;
+    height: 300px;
+}
+
+#pestimg{
+    width: 150px;
+    height: 260px;
+    text-transform: unset;
+}
+
+.seedcard:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+span{
+    margin-top: 160px;
+    text-align: center;
+}
+
+#span{
+    width: 300px;
+    padding-top: 150px;
+    text-align: center;
+    display: block;
+}
+
+#third_seed{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+#second_pest{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+#first_fert{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+#aboutdiv{
+    width: 320px;
+    height: 420px;
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.439);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 20px 10px 20px;
+}
+
+#aboutdiv img{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    top: -80px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+#virus div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav{
+    height: auto;
+}
+
+.firstfertcard{
+    width: 310px;
+    height: 460px;
+    border: 5px solid green;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 30px;
+    position: relative;
+}
+
+#firstfertcarddiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+#secpestcarddiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.secpestcard{
+    width: 310px;
+    height: 460px;
+    border: 5px solid green;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 30px;
+    position: relative;
+}
+
+.thirdseedcard{
+    width: 310px;
+    height: 460px;
+    border: 5px solid green;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 30px;
+    position: relative;
+}
+
+#thirdseedcarddiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+@media (max-width: 1225px) {
+    #sec{
+        height: auto;
+    }
+    #nav div a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1060px) {
+    #contact{
+        width: 100px;
+    }
+    #about{
+        width: 100px;
+    }
+    #prd{
+        width: 100px;
+    }
+    #menu{
+        width: 50px;
+        height: 50px;
+        position: sticky;
+        background-image: url(../images/menu-removebg-preview.png);
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1100px){   
+    #gerbdiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 995px){   
+    #lang{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: transparent; 
+        border: none;
+    }
+}
+
+@media (max-width: 900px) {
+    #three{
+        height: auto;
+    }
+    #virus{
+        height: auto;
+        gap: 50px;
+    }
+    #exempleSeed{
+        width: 300px;
+        height: 460px;
+        margin: 0px 20px 0px 0px;
+    }
+    #pests{
+        height: 200vh;
+    }
+    #ferts{
+        height: 200vh;
+    }
+    #seeds{
+        height: 200vh;
+    }
+    #seedsdiv{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #exemples{
+        width: 100%;
+    }
+    #aboutsec{
+        margin-top: 210vh;
+    }
+}
+
+@media (max-width:550px) {
+    .seedcard{
+        width: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    #three{
+        height: auto;
+    }
+    #virus{
+        height: auto;
+        gap: 50px;
+    }
+    #exempleSeed{
+        width: 300px;
+        height: 460px;
+        margin: 0px 20px 0px 0px;
+    }
+    #pests{
+        height: 200vh;
+    }
+    #ferts{
+        height: 200vh;
+    }
+    #seeds{
+        height: 200vh;
+    }
+    #seedsdiv{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .seedcard{
+        display: none;
+    }
+
+    #exemples{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #more1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    #more2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    #more3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    
+    #results{
+        height: 420vh;
+    }
+    #seeds{
+        height: 140vh;
+    }
+    #ferts{
+        height: 140vh;
+    }
+    #pests{
+        height: 140vh;
+    }
+    #aboutsec{
+        margin-top: 70px;
+    }
+    
+    #noneseed{
+        display: block;
+    }
+    #nonepest{
+        display: block;
+    }
+    #nonefert{
+        display: block;
+
+    }
+}
+  
+@media(max-width:445px){
+    #pesth1{
+        font-size: 26px;
+    }
+    #pesth2{
+        font-size: 26px;
+    }
+    #ferth1{
+        font-size: 26px;
+    }
+    #ferth2{
+        font-size: 26px;
+    }
+}
+    </style>
+    <link rel="shortcut icon" href="./images/logo_cleanup-removebg-preview.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+  <nav id="nav" class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a id="agromarket" class="navbar-brand" href="">agromarket</a>
+      <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul style="display: flex; align-items: center;" class="navbar-nav">
+          <li class="nav-item">
+            <a id="prd" class="nav-link" href="#sec">պրոդուկտներ</a>
+          </li>
+          <li class="nav-item">
+            <a id="viruses" class="nav-link" href="#three">վիրուսներ</a>
+          </li>
+          <li class="nav-item">
+            <a id="prd" class="nav-link" href="#results">ապրանքներ</a>
+          </li>
+          <li class="nav-item">
+            <a id="about" class="nav-link" href="#aboutsec">մեր մասին</a>
+          </li>
+          <li class="nav-item">
+            <a id="imp" class="nav-link" href="#importers">արտադրողներ</a>
+          </li>
+          <li class="nav-item">
+            <a id="contact" class="nav-link" href="#footer">կապ</a>
+          </li>
+          <div id="gerbdiv">
+            <img src="./images/gerb.png" style="width: 100px;height: 100px;" alt="">
+          </div>
+          <li class="nav-item dropdown">
+            <a id="langA" class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              լեզու
+            </a>
+            <ul id="lang" class="dropdown-menu">
+              <li class="li"><a class="dropdown-item" href=""><img src="./images/arm-removebg-preview.png" alt="" class="lang" id="arm">ARM</a></li>
+              <li class="li"><a class="dropdown-item" href="../WEB_BROWZER/text.html"><img src="./images/eng-removebg-preview.png" alt="" class="lang" id="eng">ENG</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/farm.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/cucumber in nature.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/field in nature.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/grapes in nature.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/apple-tree-full-sun.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pahestarm.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev text-body" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon text-body" aria-hidden="true"></span>
+          <span class="visually-hidden text-body">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="sec">
+        <h1 id="h1">պրոդուկտներ</h1>
+     <div id="product">
+      <div id="card1">
+        <div id="fertclick" class="card" style="width: 18rem;">
+        <img src="./images/fertilazer-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" id="cardp">պարարտանյութեր</p>
+        </div>
+      </div>
+    </div>
+    <div id="card1">
+      <div id="pestclick" class="card" style="width: 18rem;">
+      <img src="./images/liquid-fertilizer-removebg-preview.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text" id="cardp" >թունաքիմիկատներ</p>
+      </div>
+    </div>
+  </div>
+  <div id="card1">
+    <div id="seedclick" class="card" style="width: 18rem;">
+    <img src="./images/growing-seed-logo-design-template-fit-wheat-farm-natural-harvest-agronomy_644408-1835-removebg-preview (1).png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text" id="cardp">սերմեր</p>
+      <div id="seeddiv"></div>
+    </div>
+  </div>
+</div>
+     </div>
+        </div>
+
+      <div id="three">
+        <h1 style="text-align: center; padding-top: 30px;">ծառերի որոշ հիվանդություններ</h1>
+        <div id="virus">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/virus1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p style="font-size: 10px; text-align: center;">Դուք գործ ունեք տերևի ժանգի հետ, երբ տեսնում եք նարնջագույն, ոսկեգույն կամ կարմրավուն բծեր, որոնք պատռվում են տերևների մակերեսների վրա:</p>
+              <a href="https://www.bhg.com/gardening/pests/insects-diseases-weeds/tree-disease-photos/">ավելին․․․</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./images/virus2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p style="font-size: 10px; text-align: center;">Տերևի բծը սնկերն են, որոնք առաջացնում են կարմրավուն շագանակագույն բծեր, որոնք փչացնում են անցքերը սաղարթների վրա: Այն արագորեն տարածվում է գարնանային զով, խոնավ եղանակին, երբ նոր սաղարթ է առաջանում:</p>
+              <a href="https://www.bhg.com/gardening/pests/insects-diseases-weeds/tree-disease-photos/">ավելին․․․</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./images/virus3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p style="font-size: 10px; text-align: center;">Եղանակի տաքանալուն պես ծառերը կսկսեն բողբոջել և տերևներ բողբոջել: Արագ! Ստուգեք այս տասը տեսակի ծառերի հիվանդությունները նախքան ճյուղերը ծածկելը:</p>
+              <a href="http://elitetreecare.com/2019/04/10-types-of-tree-disease/">ավելին․․․</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-image: url(./images/fertilazer\ walpaper.2jpg.jpg); background-size: cover;" id="first_fert">
+        <h1 id="pesth1" style="text-align: center;">պարարտանյութեր</h1>
+        <div id="firstfertdiv">
+          <img id="firstfertimg" style="display: none; width: 40px; height: 40px;" src="./images/back-removebg-preview.png" alt="">
+        </div>
+        <div id="firstfertcarddiv">
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/10 - 50 - 10.jpg" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/12 - 12 - 36.jpg" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/20 - 20 - 20.jpg" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/32 - 0 - 0.jpg" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/3S.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/boro.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/chelan CU.jpg" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/chelan KS.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/engorde.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/FERTILAZERS/enzimatiko 30%.jpg" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/mol - 75.jpg" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/nemat-X.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/f_away_Zn.png" alt="" style="width: 260px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+           <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+           <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+            <img src="./images/fertilazers/calcium 50.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+          </div>
+          <div class="firstfertcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+             <img src="./images/fertilazers/3S small.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+           </div>
+           <div class="firstfertcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+             <img src="./images/fertilazers/engorde-removebg-preview.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+           </div>
+           <div class="firstfertcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+             <img src="./images/fertilazers/enzimatiko_30_-removebg-preview.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+           </div>
+           <div class="firstfertcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green; position: absolute; border-radius: 50%; top: -55px; margin-left: 95px; display: flex;align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="height: 150px; width: 300px; position: absolute;"  alt="" class="logoImg"></div>
+             <img src="./images/fertilazers/mol_75-removebg-preview.png" alt="" style="width: 300px; height: 400px; border-radius: 20px;" id="firstfertcardimg">
+           </div>
+        </div>
+        
+      </div>
+      <div style="background-image: url(./images/pesticides\ walpaper2.jpg); background-size: cover;" id="second_pest">
+        <h1 id="ferth1" style="text-align: center;">թունաքիմիկատներ</h1>
+        <div id="firstfertdiv">
+          <img id="secpestimg" style="display: none; width: 40px; height: 40px;" src="./images/back-removebg-preview.png" alt="">
+        </div>
+        <div id="secpestcarddiv">
+          <div style="width: 100%;"><h1 style="text-align: center;color: azure; text-shadow: 4px 2px 8px;">ԻՆՍԵԿՏԻՑԻԴՆԵՐ</h1></div>
+          <div id="abek" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="abekImg" src="./images/pesticides/insecticid/abek.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="abekp1"></p>
+            <p id="abekp2"></p>
+            <p id="abekp3"></p>
+          </div>
+          <div id="armor" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="armorImg" src="./images/pesticides/insecticid/armor.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="armorp1"></p>
+            <p id="armorp2"></p>
+            <p id="armorp3"></p>
+          </div>
+          <div id="fipro" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="fiproImg" src="./images/pesticides/insecticid/fipro.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="fiprop1"></p>
+            <p id="fiprop2"></p>
+            <p id="fiprop3"></p>
+          </div>
+          <div id="medal" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="medalImg" src="./images/pesticides/insecticid/medal.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="medalp1"></p>
+            <p id="medalp2"></p>
+            <p id="medalp3"></p>
+          </div>
+          <div id="napaleon" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="napaleonImg" src="./images/PESTICIDES/insecticid/napaleon.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="napaleonp1"></p>
+            <p id="napaleonp2"></p>
+            <p id="napaleonp3"></p>
+          </div>
+          <div id="payt" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="paytImg" src="./images/PESTICIDES/insecticid/payt-removebg-preview.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">            
+            <p id="paytp1"></p>
+            <p id="paytp2"></p>
+            <p id="paytp3"></p>
+          </div>
+          <div id="perfecto" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="perfectoImg" src="./images/PESTICIDES/insecticid/perfecto.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="perfectop1"></p>
+            <p id="perfectop2"></p>
+            <p id="perfectop3"></p>
+          </div>
+          <div id="pirani" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="piraniImg" src="./images/PESTICIDES/insecticid/pirani.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="piranip1"></p>
+            <p id="piranip2"></p>
+            <p id="piranip3"></p>
+          </div>
+          <div id="profeno" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="profenoImg" src="./images/PESTICIDES/insecticid/profeno-removebg-preview.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="profenop1"></p>
+            <p id="profenop2"></p>
+            <p id="profenop3"></p>
+          </div>
+          <div id="shooter" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="shooterImg" src="./images/PESTICIDES/insecticid/shooter-removebg-preview.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="shooterp1"></p>
+            <p id="shooterp2"></p>
+            <p id="shooterp3"></p>
+          </div>
+          <div id="ultimate" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="ultimateImg" src="./images/PESTICIDES/insecticid/ultimate-removebg-preview.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="ultimatep1"></p>
+            <p id="ultimatep2"></p>
+            <p id="ultimatep3"></p>
+          </div>
+          <div id="maksak" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="maksakImg" src="./images/PESTICIDES/insecticid/maxak.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="maksakp1"></p>
+            <p id="maksakp2"></p>
+            <p id="maksakp3"></p>
+          </div>
+          <div id="samrat" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="samratImg" src="./images/PESTICIDES/insecticid/samrak.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="samratp1"></p>
+            <p id="samratp2"></p>
+            <p id="samratp3"></p>
+          </div>
+          <div id="diaz" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="diazImg" src="./images/PESTICIDES/insecticid/diaz.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="diazp1"></p>
+            <p id="diazp2"></p>
+            <p id="diazp3"></p>
+          </div>
+           <div style="width: 100%;"><h1 style="text-align: center;color: azure; text-shadow: 4px 2px 8px;">herbecids</h1></div>
+          <div id="felix" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="felixImg"src="./images/PESTICIDES/herbecid/felix.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="felixp1"></p>
+            <p id="felixp2"></p>
+            <p id="felixp3"></p>
+          </div>
+          <div id="vetfinish" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="vetfinishImg" src="./images/PESTICIDES/herbecid/vetfinish.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="vetfinishp1"></p>
+            <p id="vetfinishp2"></p>
+            <p id="vetfinishp3"></p>
+          </div>
+          <div id="xizak" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="xizakImg" src="./images/PESTICIDES/herbecid/xizak.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="xizakp1"></p>
+            <p id="xizakp2"></p>
+            <p id="xizakp3"></p>
+          </div>
+          <div id="pendiPlus" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="pendiPlusImg" src="./images/PESTICIDES/herbecid/pendi plus.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="pendiPlusp1"></p>
+            <p id="pendiPlusp2"></p>
+            <p id="pendiPlusp3"></p>
+          </div>
+          <div id="prometrin" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="prometrinImg" src="./images/PESTICIDES/herbecid/PRIMETRIN.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="prometrinp1"></p>
+            <p id="prometrinp2"></p>
+            <p id="prometrinp3"></p>
+          </div>
+           <div style="width: 100%;"><h1 style="text-align: center;color: azure; text-shadow: 4px 2px 8px;">fungicids</h1></div>
+          <div id="bluecup" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="bluecupImg" src="./images/PESTICIDES/fungicid/blucup.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="bluecupp1"></p>
+            <p id="bluecupp2"></p>
+            <p id="bluecupp3"></p>
+          </div>
+          <div id="box" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="boxImg" src="./images/PESTICIDES/fungicid/boks.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="boxp1"></p>
+            <p id="boxp2"></p>
+            <p id="boxp3"></p>
+          </div>
+          <div id="boss" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="bossImg" src="./images/PESTICIDES/fungicid/boss.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="bossp1"></p>
+            <p id="bossp2"></p>
+            <p id="bossp3"></p>
+          </div>
+          <div id="dvakarb" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="dvakarbImg" src="./images/PESTICIDES/fungicid/dvakarb.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="dvakarbp1"></p>
+            <p id="dvakarbp2"></p>
+            <p id="dvakarbp3"></p>
+          </div>
+          <div id="favorit" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="favoritImg" src="./images/PESTICIDES/fungicid/Favorit.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="favoritp1"></p>
+            <p id="favoritp2"></p>
+            <p id="favoritp3"></p>
+          </div>
+          <div id="fundazon" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="fundazonImg" src="./images/PESTICIDES/fungicid/fundazon.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="fundazonp1"></p>
+            <p id="fundazonp2"></p>
+            <p id="fundazonp3"></p>
+          </div>
+          <div id="korus" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="korusImg" src="./images/PESTICIDES/fungicid/korus.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="korusp1"></p>
+            <p id="korusp2"></p>
+            <p id="korusp3"></p>
+          </div>
+          <div id="krezo" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="krezoImg" src="./images/PESTICIDES/fungicid/krezo.png" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="krezop1"></p>
+            <p id="krezop2"></p>
+            <p id="krezop3"></p>
+          </div>
+          <div id="tebusol" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="tebusolImg" src="./images/PESTICIDES/fungicid/tebusol.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="tebusolp1"></p>
+            <p id="tebusolp2"></p>
+            <p id="tebusolp3"></p>
+          </div>
+          <div id="victoria" class="secpestcard">
+            <div class="logodiv" style="width: 110px;height: 110px;background-color: green;position: absolute; border-radius: 50%; top: -55px;margin-left: 95px; display: flex; align-items: center; justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="victoriaImg" src="./images/PESTICIDES/fungicid/Victoria.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="victoriap1"></p>
+            <p id="victoriap2"></p>
+            <p id="victoriap3"></p>
+          </div>
+          <div id="kurzak" class="secpestcard">
+            <div  class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute;top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+            <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+            <img id="kurzakImg" src="./images/PESTICIDES/fungicid/kurzak.jpg" alt="" class="secpestcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            <p id="kurzakp1"></p>
+            <p id="kurzakp2"></p>
+            <p id="kurzakp3"></p>
+          </div>
+        </div>
+      </div>
+      <div id="third_seed" style="background-image: url(./images/pesticides\ walpaper2.jpg); background-size: cover;" id="second_pest">
+          <h1 style="text-align: center;">սերմեր</h1>
+          <div id="firstfertdiv">
+            <img id="thirdseedimg" style="display: none; width: 40px; height: 40px;" src="./images/back-removebg-preview.png" alt="">
+          </div>
+          <div id="thirdseedcarddiv">
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/asparago.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/basilico.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/bietolla da coste.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/bietolla da orto.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/brocollo.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cavolfiore.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cavollo capuchinno.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cicoria.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cipolla big.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cipolla small.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cipolla.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cucumber1.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cucumber2.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cucumber3.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/cucumber4.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/lattuga purple.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/latuga green.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/peperone green.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/peperone small.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/peperone yellow.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/peperone.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/ramolacio.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/ravanello small.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/sedano another.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/sedano.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/spinacio.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/zucchinno.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+            <div class="thirdseedcard">
+              <div class="logodiv" style="width: 110px;height: 110px;background-color: green; border-radius: 50%; position: absolute; top: -55px;margin-left: 95px;display: flex;align-items: center;justify-content: center;">
+              <img src="./images/logo_cleanup-removebg-preview.png" style="width: 300px;height: 150px;position: absolute;" alt=""></div>
+              <img src="./images/seeds/tomato1.jpg" alt="" class="thirdseedcardimg" style="width: 300px; height: 400px; border-radius: 20px;">
+            </div>
+          </div>
+      </div>
+
+      <section id="results">
+        <h1>պրոդուկտներ</h1>
+        <div id="start">
+          <div id="" class="resultsdiv">
+          <div id="" class="resultsdiv">
+            <div id="ferts">
+              <h2 id="pesth2">պարարտանյութեր</h2>
+              <div id="seedsdiv">
+                 <div id="exempleSeed">
+                  <img  src="./images/FERTILAZERS/f_away_Zn.png" alt="">
+                 </div>
+              <div id="exemples">
+                <div class="seedcard">
+                  <img id="pestimg" src="./images/fertilazers/calcium 50.png" alt="">
+                </div>
+                <div class="seedcard">
+                  <img style="height: 230px;" id="pestimg" src="./images/fertilazers/32 - 0 - 0.jpg" alt="">
+                </div>
+                <div class="seedcard">
+                  <img id="pestimg" style="height: auto;" src="./images/fert-product.jpg" alt="">
+                </div>
+                <div id="more1" class="more" id="fert4">
+                  <h1 >ավելին․․․</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="" class="resultsdiv">
+            <div id="pests">
+              <h2 id="ferth2">թունաքիմիկատներ</h2>
+              <div id="seedsdiv">
+                 <div id="exempleSeed">
+                  <img src="./images/PESTICIDES/herbecid/vetfinish.png" alt="">
+                 </div>
+              <div id="exemples">
+                <div class="seedcard">
+                  <img id="pestimg" src="./images/PESTICIDES/fungicid/boss.png" alt="">
+                </div>
+                <div class="seedcard">
+                  <img id="pestimg" src="./images/PESTICIDES/insecticid/pirani.jpg" alt="">
+                </div>
+                <div class="seedcard">
+                  <img id="pestimg" src="./images/pest-product.jpg" alt="">
+                </div>
+                <div id="more2" class="more" id="pest4">
+                  <h1 >ավելին․․․</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="" class="resultsdiv">
+            <div id="seeds">
+              <h2>սերմեր</h2>
+              <div id="seedsdiv">
+                 <div id="exempleSeed">
+                  <img src="./images/seeds/cucumber1.jpg" alt="">
+                 </div>
+              <div id="exemples">
+                <div class="seedcard">
+                  <img id="pestimg" src="./images/seeds/cucumber1.2.jpg">
+                </div>
+                <div class="seedcard">
+                  <img id="pestimg" src="./images/seeds/product.png" alt="">
+                </div>
+                <div class="seedcard">
+                  <img id="pestimg" src="./images/seeds/cipolla.jpg" alt="">
+                </div>
+                <div id="more3" class="more" id="seed4">
+                  <h1>ավելին․․․</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="aboutsec">
+        <h1 style="text-align: center; color: white; font-size: 50px; text-shadow: 2px 4px 8px;">մեր մասին</h1>
+        <div id="aboutdiv">
+          <img src="./images/agro.jpg" alt="">
+          <span style="font-size: 14px;">մենք աշխատում ենք սկսած 2009 թվականից և ունենք շատ գործընկեր խանութներ Հայաստանի յուրաքանչյուր մարզում։ <br>հանդիսանում ենք DVA agro-ի(Գերմանիա), Grupoinesta-ի(Իսպանիա), Nature sa-ի(Հունաստան), Parijat-ի(Հնդկաստան) և JUL-ի(Հնդկաստան) պաշտոնական ներկայացուցիչը Հայաստանում։ այդ ընկերությունների մասին գիտեն ողջ աշխարհում։</span>
+        </div>
+      </section>
+
+      <div id="importers" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/nature sa.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/grupoinesta.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/parijat.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ju agri.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/dva-agro-europe.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/belfert.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#importers" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#importers" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <footer id="footer">
+        <h2>հետադարձ կապ</h2>
+          <div id="first" class="lasts">
+            <h3 id="gmail"><a href=mailto:"agromarket.eu@gmail.com">agromarket.eu@gmail.com</a></h3>
+            <h3 id="phone"><a href="tel:+374 94 08 16 56">+374 94 08 16 56</a></h3>
+            <h3 id="phone"><a href="tel:+374 93 05 11 61">+374 93 05 11 61</a></h3>
+          </div>
+          <img
+           id="Divider" src="./images/Divider.png" alt="">
+          <div id="second" class="lasts">
+            <h4>կապ ստեղծողի հետ ` </h4>
+            <h6>+374 94 00 01 80</h6>
+            <h6><a href=mailto:"hovhannes.progrumming.7@gmail.com">hovhannes.progrumming.7@gmail.com</a></h6>
+          </div>
+      </footer>
+
+      <div id="first_fert"></div>
+      <div id="second_pest"></div>
+      <div id="third_seed"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- <script src="./app.js"></script> -->
+    <script>
+      let aboutsec = document.getElementById(`aboutsec`) ; 
+let aboutdiv = document.getElementById(`aboutdiv`) ;
+aboutsec.style.display = `flex`
+aboutsec.style.flexDirection = `column`
+aboutsec.style.alignItems = `center`
+aboutdiv.style.marginTop = `15vh`
+let more1 = document.getElementById(`more1`) ;
+let more2 = document.getElementById(`more2`) ;
+let more3 = document.getElementById(`more3`) ;
+let carouselExample = document.getElementById(`carouselExample`) ;
+let sec = document.getElementById(`sec`) ;
+let three = document.getElementById(`three`) ;
+let results = document.getElementById(`results`) ;
+let importers = document.getElementById(`importers`) ;
+let first_fert = document.getElementById(`first_fert`) ;
+let second_pest = document.getElementById(`second_pest`) ;
+let third_seed = document.getElementById(`third_seed`) ;
+let nav = document.getElementById(`nav`) ;
+let firstfertimg = document.getElementById(`firstfertimg`) ;
+let secpestimg = document.getElementById(`secpestimg`) ;
+let thirdseedimg = document.getElementById(`thirdseedimg`) ;
+let fertclick = document.getElementById(`fertclick`) ;
+let pestclick = document.getElementById(`pestclick`) ;
+let seedclick = document.getElementById(`seedclick`) ;
+
+fertclick.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `none`
+    three.style.display = `none`
+    results.style.display = `none`
+    importers.style.display = `none`
+    aboutsec.style.display = `none`
+    nav.style.display = `none`
+    first_fert.style.display = `block`
+    firstfertimg.style.display = `block`
+})
+
+pestclick.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `none`
+    three.style.display = `none`
+    results.style.display = `none`
+    importers.style.display = `none`
+    aboutsec.style.display = `none`
+    nav.style.display = `none`
+    second_pest.style.display = `block`
+    secpestimg.style.display = `block`
+})
+
+seedclick.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `none`
+    three.style.display = `none`
+    results.style.display = `none`
+    importers.style.display = `none`
+    aboutsec.style.display = `none`
+    nav.style.display = `none`
+    third_seed.style.display = `block`
+    thirdseedimg.style.display = `block`
+})
+
+more1.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `none`
+    three.style.display = `none`
+    results.style.display = `none`
+    importers.style.display = `none`
+    aboutsec.style.display = `none`
+    nav.style.display = `none`
+    first_fert.style.display = `block`
+    firstfertimg.style.display = `block`
+})
+
+more2.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `none`
+    three.style.display = `none`
+    results.style.display = `none`
+    importers.style.display = `none`
+    aboutsec.style.display = `none`
+    nav.style.display = `none`
+    second_pest.style.display = `block`
+    secpestimg.style.display = `block`
+})
+
+more3.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `none`
+    three.style.display = `none`
+    results.style.display = `none`
+    importers.style.display = `none`
+    aboutsec.style.display = `none`
+    nav.style.display = `none`
+    third_seed.style.display = `block`
+    thirdseedimg.style.display = `block`
+})
+
+firstfertimg.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `block`
+    three.style.display = `block`
+    results.style.display = `block`
+    importers.style.display = `block`
+    aboutsec.style.display = `block`
+    nav.style.display = `block`
+    first_fert.style.display = `none`
+    firstfertimg.style.display = `none`
+})
+
+secpestimg.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `block`
+    three.style.display = `block`
+    results.style.display = `block`
+    importers.style.display = `block`
+    aboutsec.style.display = `block`
+    nav.style.display = `block`
+    second_pest.style.display = `none`
+    secpestimg.style.display = `none`
+})
+
+thirdseedimg.addEventListener(`click` , function () {
+    carouselExample.style.display = `none`
+    sec.style.display = `block`
+    three.style.display = `block`
+    results.style.display = `block`
+    importers.style.display = `block`
+    aboutsec.style.display = `block`
+    nav.style.display = `block`
+    third_seed.style.display = `none`
+    thirdseedimg.style.display = `none`
+})
+
+let armor = document.getElementById(`armor`) ;
+let armorImg = document.getElementById(`armorImg`) ;
+let armorp1 = document.getElementById(`armorp1`) ;
+let armorp2 = document.getElementById(`armorp2`) ;
+let armorp3 = document.getElementById(`armorp3`) ;
+let armorimg = document.querySelector(`#armor div`) ;
+
+armor.addEventListener(`mouseover` , function () {
+    armor.style.transition = `all , 0.5s`
+    armor.style.display = `flex` 
+    armor.style.justifyContent = `center` 
+    armor.style.alignItems = `center`
+    armor.style.flexDirection = `column`
+    armorImg.style.height = `0px`
+    armor.style.backgroundColor = `green`
+    armorp1.innerText = `ազդող նյութ ՝ Acetamiprid 20 + Lambda cihalotrin 150`
+    armorp1.style.fontSize = `14px`
+    armorp1.style.color = `white`
+    armorp2.innerText = `պատրաստված է գերմանիայում`
+    armorp2.style.fontSize = `14px`
+    armorp2.style.color = `white`
+    armorp3.innerText = `ստեղծող ՝ DVA agro`
+    armorp3.style.fontSize = `14px`
+    armorp3.style.color = `white`
+    armorimg.style.marginLeft = `0px`
+})
+
+armor.addEventListener(`mouseleave` , function () {
+    armorImg.style.height = `400px`
+    armor.style.backgroundColor = `transparent`
+    armorp1.innerText = ``
+    armorp2.innerText = ``
+    armorp3.innerText = ``
+    armorimg.style.marginLeft = `0px`
+})
+
+let fipro = document.getElementById(`fipro`) ;
+let fiproImg = document.getElementById(`fiproImg`) ;
+let fiprop1 = document.getElementById(`fiprop1`) ;
+let fiprop2 = document.getElementById(`fiprop2`) ;
+let fiprop3 = document.getElementById(`fiprop3`) ;
+let fiproimg = document.querySelector(`#fipro div`) ;
+
+fipro.addEventListener(`mouseover` , function () {
+    fipro.style.transition = `all , 0.5s`
+    fipro.style.display = `flex` 
+    fipro.style.justifyContent = `center` 
+    fipro.style.alignItems = `center`
+    fipro.style.flexDirection = `column`
+    fiproImg.style.height = `0px`
+    fipro.style.backgroundColor = `green`
+    fiprop1.innerText = `ազդող նյութ ՝fipronil + cloropirifos`
+    fiprop1.style.fontSize = `14px`
+    fiprop1.style.color = `white`
+    fiprop2.innerText = `պատրաստված է Հնդկաստանում`
+    fiprop2.style.fontSize = `14px`
+    fiprop2.style.color = `white`
+    fiprop3.innerText = `ստեղծող ՝ Parijat`
+    fiprop3.style.fontSize = `14px`
+    fiprop3.style.color = `white`
+    fiproimg.style.marginLeft = `0px`
+})
+
+fipro.addEventListener(`mouseleave` , function () {
+    fiproImg.style.height = `400px`
+    fipro.style.backgroundColor = `transparent`
+    fiprop1.innerText = ``
+    fiprop2.innerText = ``
+    fiprop3.innerText = ``
+    fiproimg.style.marginLeft = `0px`
+})
+
+let medal = document.getElementById(`medal`) ;
+let medalImg = document.getElementById(`medalImg`) ;
+let medalp1 = document.getElementById(`medalp1`) ;
+let medalp2 = document.getElementById(`medalp2`) ;
+let medalp3 = document.getElementById(`medalp3`) ;
+let medalimg = document.querySelector(`#medal div`) ;
+
+medal.addEventListener(`mouseover` , function () {
+    medal.style.transition = `all , 0.5s`
+    medal.style.display = `flex` 
+    medal.style.justifyContent = `center` 
+    medal.style.alignItems = `center`
+    medal.style.flexDirection = `column`
+    medalImg.style.height = `0px`
+    medal.style.backgroundColor = `green`
+    medalp1.innerText = `ազդող նյութ ՝ tiametocsam`
+    medalp1.style.fontSize = `14px`
+    medalp1.style.color = `white`
+    medalp2.innerText = `պատրաստված է Հնդկաստանում`
+    medalp2.style.fontSize = `14px`
+    medalp2.style.color = `white`
+    medalp3.innerText = `ստեղծող ՝ Parijat`
+    medalp3.style.fontSize = `14px`
+    medalp3.style.color = `white`
+    medalimg.style.marginLeft = `0px`
+})
+
+medal.addEventListener(`mouseleave` , function () {
+    medalImg.style.height = `400px`
+    medal.style.backgroundColor = `transparent`
+    medalp1.innerText = ``
+    medalp2.innerText = ``
+    medalp3.innerText = ``
+    medalimg.style.marginLeft = `0px`
+})
+
+let napaleon = document.getElementById(`napaleon`) ;
+let napaleonImg = document.getElementById(`napaleonImg`) ;
+let napaleonp1 = document.getElementById(`napaleonp1`) ;
+let napaleonp2 = document.getElementById(`napaleonp2`) ;
+let napaleonp3 = document.getElementById(`napaleonp3`) ;
+let napaleonimg = document.querySelector(`#napaleon div`) ;
+
+napaleon.addEventListener(`mouseover` , function () {
+    napaleon.style.transition = `all , 0.5s`
+    napaleon.style.display = `flex` 
+    napaleon.style.justifyContent = `center` 
+    napaleon.style.alignItems = `center`
+    napaleon.style.flexDirection = `column`
+    napaleonImg.style.height = `0px`
+    napaleon.style.backgroundColor = `green`
+    napaleonp1.innerText = `ազդող նյութ ՝ cloropirifos 480`
+    napaleonp1.style.fontSize = `14px`
+    napaleonp1.style.color = `white`
+    napaleonp2.innerText = `պատրաստված է Հնդկաստանում`
+    napaleonp2.style.fontSize = `14px`
+    napaleonp2.style.color = `white`
+    napaleonp3.innerText = `ստեղծող ՝ Parijat`
+    napaleonp3.style.fontSize = `14px`
+    napaleonp3.style.color = `white`
+    napaleonimg.style.marginLeft = `0px`
+})
+
+napaleon.addEventListener(`mouseleave` , function () {
+    napaleonImg.style.height = `400px`
+    napaleon.style.backgroundColor = `transparent`
+    napaleonp1.innerText = ``
+    napaleonp2.innerText = ``
+    napaleonp3.innerText = ``
+    napaleonimg.style.marginLeft = `0px`
+})
+
+let payt = document.getElementById(`payt`) ;
+let paytImg = document.getElementById(`paytImg`) ;
+let paytp1 = document.getElementById(`paytp1`) ;
+let paytp2 = document.getElementById(`paytp2`) ;
+let paytp3 = document.getElementById(`paytp3`) ;
+let paytimg = document.querySelector(`#payt div`) ;
+
+payt.addEventListener(`mouseover` , function () {
+    payt.style.transition = `all , 0.5s`
+    payt.style.display = `flex` 
+    payt.style.justifyContent = `center` 
+    payt.style.alignItems = `center`
+    payt.style.flexDirection = `column`
+    paytImg.style.height = `0px`
+    payt.style.backgroundColor = `green`
+    paytp1.innerText = `ազդող նյութ ՝ bifentrin 100`
+    paytp1.style.fontSize = `14px`
+    paytp1.style.color = `white`
+    paytp2.innerText = `պատրաստված է Հնդկաստանում`
+    paytp2.style.fontSize = `14px`
+    paytp2.style.color = `white`
+    paytp3.innerText = `ստեղծող ՝ Parijat`
+    paytp3.style.fontSize = `14px`
+    paytp3.style.color = `white`
+    paytimg.style.marginLeft = `0px`
+})
+
+payt.addEventListener(`mouseleave` , function () {
+    paytImg.style.height = `400px`
+    payt.style.backgroundColor = `transparent`
+    paytp1.innerText = ``
+    paytp2.innerText = ``
+    paytp3.innerText = ``
+    paytimg.style.marginLeft = `0px`
+})
+
+let perfecto = document.getElementById(`perfecto`) ;
+let perfectoImg = document.getElementById(`perfectoImg`) ;
+let perfectop1 = document.getElementById(`perfectop1`) ;
+let perfectop2 = document.getElementById(`perfectop2`) ;
+let perfectop3 = document.getElementById(`perfectop3`) ;
+let perfectoimg = document.querySelector(`#perfecto div`) ;
+
+perfecto.addEventListener(`mouseover` , function () {
+    perfecto.style.transition = `all , 0.5s`
+    perfecto.style.display = `flex` 
+    perfecto.style.justifyContent = `center` 
+    perfecto.style.alignItems = `center`
+    perfecto.style.flexDirection = `column`
+    perfectoImg.style.height = `0px`
+    perfecto.style.backgroundColor = `green`
+    perfectop1.innerText = `ազդող նյութ ՝ imidacloprid + lambda-cihalotrin 5%`
+    perfectop1.style.fontSize = `14px`
+    perfectop1.style.color = `white`
+    perfectop2.innerText = `պատրաստված է գերմանիայում`
+    perfectop2.style.fontSize = `14px`
+    perfectop2.style.color = `white`
+    perfectop3.innerText = `ստեղծող ՝ DVA AGRO`
+    perfectop3.style.fontSize = `14px`
+    perfectop3.style.color = `white`
+    perfectoimg.style.marginLeft = `0px`
+})
+
+perfecto.addEventListener(`mouseleave` , function () {
+    perfectoImg.style.height = `400px`
+    perfecto.style.backgroundColor = `transparent`
+    perfectop1.innerText = ``
+    perfectop2.innerText = ``
+    perfectop3.innerText = ``
+    perfectoimg.style.marginLeft = `0px`
+})
+
+let pirani = document.getElementById(`pirani`) ;
+let piraniImg = document.getElementById(`piraniImg`) ;
+let piranip1 = document.getElementById(`piranip1`) ;
+let piranip2 = document.getElementById(`piranip2`) ;
+let piranip3 = document.getElementById(`piranip3`) ;
+let piraniimg = document.querySelector(`#pirani div`) ;
+
+pirani.addEventListener(`mouseover` , function () {
+    pirani.style.transition = `all , 0.5s`
+    pirani.style.display = `flex` 
+    pirani.style.justifyContent = `center` 
+    pirani.style.alignItems = `center`
+    pirani.style.flexDirection = `column`
+    piraniImg.style.height = `0px`
+    pirani.style.backgroundColor = `green`
+    piranip1.innerText = `ազդող նյութ ՝ emamektin bezoat 50g/kg`
+    piranip1.style.fontSize = `14px`
+    piranip1.style.color = `white`
+    piranip2.innerText = `պատրաստված է Հնդկաստանում`
+    piranip2.style.fontSize = `14px`
+    piranip2.style.color = `white`
+    piranip3.innerText = `ստեղծող ՝ Parijat`
+    piranip3.style.fontSize = `14px`
+    piranip3.style.color = `white`
+    piraniimg.style.marginLeft = `0px`
+})
+
+pirani.addEventListener(`mouseleave` , function () {
+    piraniImg.style.height = `400px`
+    pirani.style.backgroundColor = `transparent`
+    piranip1.innerText = ``
+    piranip2.innerText = ``
+    piranip3.innerText = ``
+    piraniimg.style.marginLeft = `0px`
+})
+
+let profeno = document.getElementById(`profeno`) ;
+let profenoImg = document.getElementById(`profenoImg`) ;
+let profenop1 = document.getElementById(`profenop1`) ;
+let profenop2 = document.getElementById(`profenop2`) ;
+let profenop3 = document.getElementById(`profenop3`) ;
+let profenoimg = document.querySelector(`#profeno div`) ;
+
+profeno.addEventListener(`mouseover` , function () {
+    profeno.style.transition = `all , 0.5s`
+    profeno.style.display = `flex` 
+    profeno.style.justifyContent = `center` 
+    profeno.style.alignItems = `center`
+    profeno.style.flexDirection = `column`
+    profenoImg.style.height = `0px`
+    profeno.style.backgroundColor = `green`
+    profenop1.innerText = `ազդող նյութ ՝ profenofos 500`
+    profenop1.style.fontSize = `14px`
+    profenop1.style.color = `white`
+    profenop2.innerText = `պատրաստված է Հնդկաստանում`
+    profenop2.style.fontSize = `14px`
+    profenop2.style.color = `white`
+    profenop3.innerText = `ստեղծող ՝ JUL`
+    profenop3.style.fontSize = `14px`
+    profenop3.style.color = `white`
+    profenoimg.style.marginLeft = `0px`
+})
+
+profeno.addEventListener(`mouseleave` , function () {
+    profenoImg.style.height = `400px`
+    profeno.style.backgroundColor = `transparent`
+    profenop1.innerText = ``
+    profenop2.innerText = ``
+    profenop3.innerText = ``
+    profenoimg.style.marginLeft = `0px`
+})
+
+let shooter = document.getElementById(`shooter`) ;
+let shooterImg = document.getElementById(`shooterImg`) ;
+let shooterp1 = document.getElementById(`shooterp1`) ;
+let shooterp2 = document.getElementById(`shooterp2`) ;
+let shooterp3 = document.getElementById(`shooterp3`) ;
+let shooterimg = document.querySelector(`#shooter div`) ;
+
+shooter.addEventListener(`mouseover` , function () {
+    shooter.style.transition = `all , 0.5s`
+    shooter.style.display = `flex` 
+    shooter.style.justifyContent = `center` 
+    shooter.style.alignItems = `center`
+    shooter.style.flexDirection = `column`
+    shooterImg.style.height = `0px`
+    shooter.style.backgroundColor = `green`
+    shooterp1.innerText = `ազդող նյութ ՝ lambda-cialotrin 50g/l`
+    shooterp1.style.fontSize = `14px`
+    shooterp1.style.color = `white`
+    shooterp2.innerText = `պատրաստված է Հնդկաստանում`
+    shooterp2.style.fontSize = `14px`
+    shooterp2.style.color = `white`
+    shooterp3.innerText = `ստեղծող ՝ JUL`
+    shooterp3.style.fontSize = `14px`
+    shooterp3.style.color = `white`
+    shooterimg.style.marginLeft = `0px`
+})
+
+shooter.addEventListener(`mouseleave` , function () {
+    shooterImg.style.height = `400px`
+    shooter.style.backgroundColor = `transparent`
+    shooterp1.innerText = ``
+    shooterp2.innerText = ``
+    shooterp3.innerText = ``
+    shooterimg.style.marginLeft = `0px`
+})
+
+let ultimate = document.getElementById(`ultimate`) ;
+let ultimateImg = document.getElementById(`ultimateImg`) ;
+let ultimatep1 = document.getElementById(`ultimatep1`) ;
+let ultimatep2 = document.getElementById(`ultimatep2`) ;
+let ultimatep3 = document.getElementById(`ultimatep3`) ;
+let ultimateimg = document.querySelector(`#ultimate div`) ;
+
+ultimate.addEventListener(`mouseover` , function () {
+    ultimate.style.transition = `all , 0.5s`
+    ultimate.style.display = `flex` 
+    ultimate.style.justifyContent = `center` 
+    ultimate.style.alignItems = `center`
+    ultimate.style.flexDirection = `column`
+    ultimateImg.style.height = `0px`
+    ultimate.style.backgroundColor = `green`
+    ultimatep1.innerText = `ազդող նյութ ՝ cloropirifos 500 + cipermetrin 50`
+    ultimatep1.style.fontSize = `14px`
+    ultimatep1.style.color = `white`
+    ultimatep2.innerText = `պատրաստված է Հնդկաստանում`
+    ultimatep2.style.fontSize = `14px`
+    ultimatep2.style.color = `white`
+    ultimatep3.innerText = `ստեղծող ՝ Parijat`
+    ultimatep3.style.fontSize = `14px`
+    ultimatep3.style.color = `white`
+    ultimateimg.style.marginLeft = `0px`
+})
+
+ultimate.addEventListener(`mouseleave` , function () {
+    ultimateImg.style.height = `400px`
+    ultimate.style.backgroundColor = `transparent`
+    ultimatep1.innerText = ``
+    ultimatep2.innerText = ``
+    ultimatep3.innerText = ``
+    ultimateimg.style.marginLeft = `0px`
+})
+
+let maksak = document.getElementById(`maksak`) ;
+let maksakImg = document.getElementById(`maksakImg`) ;
+let maksakp1 = document.getElementById(`maksakp1`) ;
+let maksakp2 = document.getElementById(`maksakp2`) ;
+let maksakp3 = document.getElementById(`maksakp3`) ;
+let maksakimg = document.querySelector(`#maksak div`) ;
+
+maksak.addEventListener(`mouseover` , function () {
+    maksak.style.transition = `all , 0.5s`
+    maksak.style.display = `flex` 
+    maksak.style.justifyContent = `center` 
+    maksak.style.alignItems = `center`
+    maksak.style.flexDirection = `column`
+    maksakImg.style.height = `0px`
+    maksak.style.backgroundColor = `green`
+    maksakp1.innerText = `ազդող նյութ ՝ alfa cipermetrin 100g/l`
+    maksakp1.style.fontSize = `14px`
+    maksakp1.style.color = `white`
+    maksakp2.innerText = `պատրաստված է Հնդկաստանում`
+    maksakp2.style.fontSize = `14px`
+    maksakp2.style.color = `white`
+    maksakp3.innerText = `ստեղծող ՝ JUL`
+    maksakp3.style.fontSize = `14px`
+    maksakp3.style.color = `white`
+    maksakimg.style.marginLeft = `0px`
+})
+
+maksak.addEventListener(`mouseleave` , function () {
+    maksakImg.style.height = `400px`
+    maksak.style.backgroundColor = `transparent`
+    maksakp1.innerText = ``
+    maksakp2.innerText = ``
+    maksakp3.innerText = ``
+    maksakimg.style.marginLeft = `0px`
+})
+
+let samrat = document.getElementById(`samrat`) ;
+let samratImg = document.getElementById(`samratImg`) ;
+let samratp1 = document.getElementById(`samratp1`) ;
+let samratp2 = document.getElementById(`samratp2`) ;
+let samratp3 = document.getElementById(`samratp3`) ;
+let samratimg = document.querySelector(`#samrat div`) ;
+
+samrat.addEventListener(`mouseover` , function () {
+    samrat.style.transition = `all , 0.5s`
+    samrat.style.display = `flex` 
+    samrat.style.justifyContent = `center` 
+    samrat.style.alignItems = `center`
+    samrat.style.flexDirection = `column`
+    samratImg.style.height = `0px`
+    samrat.style.backgroundColor = `green`
+    samratp1.innerText = `ազդող նյութ ՝ imidakloprid 350g/l`
+    samratp1.style.fontSize = `14px`
+    samratp1.style.color = `white`
+    samratp2.innerText = `պատրաստված է Հնդկաստանում`
+    samratp2.style.fontSize = `14px`
+    samratp2.style.color = `white`
+    samratp3.innerText = `ստեղծող ՝ JUL`
+    samratp3.style.fontSize = `14px`
+    samratp3.style.color = `white`
+    samratimg.style.marginLeft = `0px`
+})
+
+samrat.addEventListener(`mouseleave` , function () {
+    samratImg.style.height = `400px`
+    samrat.style.backgroundColor = `transparent`
+    samratp1.innerText = ``
+    samratp2.innerText = ``
+    samratp3.innerText = ``
+    samratimg.style.marginLeft = `0px`
+})
+
+let diaz = document.getElementById(`diaz`) ;
+let diazImg = document.getElementById(`diazImg`) ;
+let diazp1 = document.getElementById(`diazp1`) ;
+let diazp2 = document.getElementById(`diazp2`) ;
+let diazp3 = document.getElementById(`diazp3`) ;
+let diazimg = document.querySelector(`#diaz div`) ;
+
+diaz.addEventListener(`mouseover` , function () {
+    diaz.style.transition = `all , 0.5s`
+    diaz.style.display = `flex` 
+    diaz.style.justifyContent = `center` 
+    diaz.style.alignItems = `center`
+    diaz.style.flexDirection = `column`
+    diazImg.style.height = `0px`
+    diaz.style.backgroundColor = `green`
+    diazp1.innerText = `ազդող նյութ ՝ fipronil 3g/kg`
+    diazp1.style.fontSize = `14px`
+    diazp1.style.color = `white`
+    diazp2.innerText = `պատրաստված է Հնդկաստանում`
+    diazp2.style.fontSize = `14px`
+    diazp2.style.color = `white`
+    diazp3.innerText = `ստեղծող ՝ JUL`
+    diazp3.style.fontSize = `14px`
+    diazp3.style.color = `white`
+    diazimg.style.marginLeft = `0px`
+})
+
+diaz.addEventListener(`mouseleave` , function () {
+    diazImg.style.height = `400px`
+    diaz.style.backgroundColor = `transparent`
+    diazp1.innerText = ``
+    diazp2.innerText = ``
+    diazp3.innerText = ``
+    diazimg.style.marginLeft = `0px`
+})
+
+let felix = document.getElementById(`felix`) ;
+let felixImg = document.getElementById(`felixImg`) ;
+let felixp1 = document.getElementById(`felixp1`) ;
+let felixp2 = document.getElementById(`felixp2`) ;
+let felixp3 = document.getElementById(`felixp3`) ;
+let feliximg = document.querySelector(`#felix div`) ;
+
+felix.addEventListener(`mouseover` , function () {
+    felix.style.transition = `all , 0.5s`
+    felix.style.display = `flex` 
+    felix.style.justifyContent = `center` 
+    felix.style.alignItems = `center`
+    felix.style.flexDirection = `column`
+    felixImg.style.height = `0px`
+    felix.style.backgroundColor = `green`
+    felixp1.innerText = `ազդող նյութ ՝ glifosat 757g/kg`
+    felixp1.style.fontSize = `14px`
+    felixp1.style.color = `white`
+    felixp2.innerText = `պատրաստված է գերմանիայում`
+    felixp2.style.fontSize = `14px`
+    felixp2.style.color = `white`
+    felixp3.innerText = `ստեղծող ՝ DVA agro`
+    felixp3.style.fontSize = `14px`
+    felixp3.style.color = `white`
+    feliximg.style.marginLeft = `0px`
+})
+
+felix.addEventListener(`mouseleave` , function () {
+    felixImg.style.height = `400px`
+    felix.style.backgroundColor = `transparent`
+    felixp1.innerText = ``
+    felixp2.innerText = ``
+    felixp3.innerText = ``
+    feliximg.style.marginLeft = `0px`
+})
+
+let vetfinish = document.getElementById(`vetfinish`) ;
+let vetfinishImg = document.getElementById(`vetfinishImg`) ;
+let vetfinishp1 = document.getElementById(`vetfinishp1`) ;
+let vetfinishp2 = document.getElementById(`vetfinishp2`) ;
+let vetfinishp3 = document.getElementById(`vetfinishp3`) ;
+let vetfinishimg = document.querySelector(`#vetfinish div`) ;
+
+vetfinish.addEventListener(`mouseover` , function () {
+    vetfinish.style.transition = `all , 0.5s`
+    vetfinish.style.display = `flex` 
+    vetfinish.style.justifyContent = `center` 
+    vetfinish.style.alignItems = `center`
+    vetfinish.style.flexDirection = `column`
+    vetfinishImg.style.height = `0px`
+    vetfinish.style.backgroundColor = `green`
+    vetfinishp1.innerText = `ազդող նյութ ՝ 2,4d metil salt`
+    vetfinishp1.style.fontSize = `14px`
+    vetfinishp1.style.color = `white`
+    vetfinishp2.innerText = `պատրաստված է Հնդկաստանում`
+    vetfinishp2.style.fontSize = `14px`
+    vetfinishp2.style.color = `white`
+    vetfinishp3.innerText = `ստեղծող ՝ Parijat`
+    vetfinishp3.style.fontSize = `14px`
+    vetfinishp3.style.color = `white`
+    vetfinishimg.style.marginLeft = `0px`
+})
+
+vetfinish.addEventListener(`mouseleave` , function () {
+    vetfinishImg.style.height = `400px`
+    vetfinish.style.backgroundColor = `transparent`
+    vetfinishp1.innerText = ``
+    vetfinishp2.innerText = ``
+    vetfinishp3.innerText = ``
+    vetfinishimg.style.marginLeft = `0px`
+})
+
+let xizak = document.getElementById(`xizak`) ;
+let xizakImg = document.getElementById(`xizakImg`) ;
+let xizakp1 = document.getElementById(`xizakp1`) ;
+let xizakp2 = document.getElementById(`xizakp2`) ;
+let xizakp3 = document.getElementById(`xizakp3`) ;
+let xizakimg = document.querySelector(`#xizak div`) ;
+
+xizak.addEventListener(`mouseover` , function () {
+    xizak.style.transition = `all , 0.5s`
+    xizak.style.display = `flex` 
+    xizak.style.justifyContent = `center` 
+    xizak.style.alignItems = `center`
+    xizak.style.flexDirection = `column`
+    xizakImg.style.height = `0px`
+    xizak.style.backgroundColor = `green`
+    xizakp1.innerText = `ազդող նյութ ՝ xizalaxop + etil 50g/l`
+    xizakp1.style.fontSize = `14px`
+    xizakp1.style.color = `white`
+    xizakp2.innerText = `պատրաստված է Հնդկաստանում`
+    xizakp2.style.fontSize = `14px`
+    xizakp2.style.color = `white`
+    xizakp3.innerText = `ստեղծող ՝ JUL`
+    xizakp3.style.fontSize = `14px`
+    xizakp3.style.color = `white`
+    xizakimg.style.marginLeft = `0px`
+})
+
+xizak.addEventListener(`mouseleave` , function () {
+    xizakImg.style.height = `400px`
+    xizak.style.backgroundColor = `transparent`
+    xizakp1.innerText = ``
+    xizakp2.innerText = ``
+    xizakp3.innerText = ``
+    xizakimg.style.marginLeft = `0px`
+})
+
+let pendiPlus = document.getElementById(`pendiPlus`) ;
+let pendiPlusImg = document.getElementById(`pendiPlusImg`) ;
+let pendiPlusp1 = document.getElementById(`pendiPlusp1`) ;
+let pendiPlusp2 = document.getElementById(`pendiPlusp2`) ;
+let pendiPlusp3 = document.getElementById(`pendiPlusp3`) ;
+let pendiPlusimg = document.querySelector(`#pendiPlus div`) ;
+
+pendiPlus.addEventListener(`mouseover` , function () {
+    pendiPlus.style.transition = `all , 0.5s`
+    pendiPlus.style.display = `flex` 
+    pendiPlus.style.justifyContent = `center` 
+    pendiPlus.style.alignItems = `center`
+    pendiPlus.style.flexDirection = `column`
+    pendiPlusImg.style.height = `0px`
+    pendiPlus.style.backgroundColor = `green`
+    pendiPlusp1.innerText = `ազդող նյութ ՝ pendimetalin 30%`
+    pendiPlusp1.style.fontSize = `14px`
+    pendiPlusp1.style.color = `white`
+    pendiPlusp2.innerText = `պատրաստված է Հնդկաստանում`
+    pendiPlusp2.style.fontSize = `14px`
+    pendiPlusp2.style.color = `white`
+    pendiPlusp3.innerText = `ստեղծող ՝ Parijat`
+    pendiPlusp3.style.fontSize = `14px`
+    pendiPlusp3.style.color = `white`
+    pendiPlusimg.style.marginLeft = `0px`
+})
+
+pendiPlus.addEventListener(`mouseleave` , function () {
+    pendiPlusImg.style.height = `400px`
+    pendiPlus.style.backgroundColor = `transparent`
+    pendiPlusp1.innerText = ``
+    pendiPlusp2.innerText = ``
+    pendiPlusp3.innerText = ``
+    pendiPlusimg.style.marginLeft = `0px`
+})
+
+let prometrin = document.getElementById(`prometrin`) ;
+let prometrinImg = document.getElementById(`prometrinImg`) ;
+let prometrinp1 = document.getElementById(`prometrinp1`) ;
+let prometrinp2 = document.getElementById(`prometrinp2`) ;
+let prometrinp3 = document.getElementById(`prometrinp3`) ;
+let prometrinimg = document.querySelector(`#prometrin div`) ;
+
+prometrin.addEventListener(`mouseover` , function () {
+    prometrin.style.transition = `all , 0.5s`
+    prometrin.style.display = `flex` 
+    prometrin.style.justifyContent = `center` 
+    prometrin.style.alignItems = `center`
+    prometrin.style.flexDirection = `column`
+    prometrinImg.style.height = `0px`
+    prometrin.style.backgroundColor = `green`
+    prometrinp1.innerText = `ազդող նյութ ՝ perimetrin 500g/l`
+    prometrinp1.style.fontSize = `14px`
+    prometrinp1.style.color = `white`
+    prometrinp2.innerText = `պատրաստված է գերմանիայում`
+    prometrinp2.style.fontSize = `14px`
+    prometrinp2.style.color = `white`
+    prometrinp3.innerText = `ստեղծող ՝ DVA agro`
+    prometrinp3.style.fontSize = `14px`
+    prometrinp3.style.color = `white`
+    prometrinimg.style.marginLeft = `0px`
+})
+
+prometrin.addEventListener(`mouseleave` , function () {
+    prometrinImg.style.height = `400px`
+    prometrin.style.backgroundColor = `transparent`
+    prometrinp1.innerText = ``
+    prometrinp2.innerText = ``
+    prometrinp3.innerText = ``
+    prometrinimg.style.marginLeft = `0px`
+})
+
+let bluecup = document.getElementById(`bluecup`) ;
+let bluecupImg = document.getElementById(`bluecupImg`) ;
+let bluecupp1 = document.getElementById(`bluecupp1`) ;
+let bluecupp2 = document.getElementById(`bluecupp2`) ;
+let bluecupp3 = document.getElementById(`bluecupp3`) ;
+let bluecupimg = document.querySelector(`#bluecup div`) ;
+
+bluecup.addEventListener(`mouseover` , function () {
+    bluecup.style.transition = `all , 0.5s`
+    bluecup.style.display = `flex` 
+    bluecup.style.justifyContent = `center` 
+    bluecup.style.alignItems = `center`
+    bluecup.style.flexDirection = `column`
+    bluecupImg.style.height = `0px`
+    bluecup.style.backgroundColor = `green`
+    bluecupp1.innerText = `ազդող նյութ ՝ cupper sulfate 200g/kg + calcium hidrocside`
+    bluecupp1.style.fontSize = `14px`
+    bluecupp1.style.color = `white`
+    bluecupp2.innerText = `պատրաստված է Հնդկաստանում`
+    bluecupp2.style.fontSize = `14px`
+    bluecupp2.style.color = `white`
+    bluecupp3.innerText = `ստեղծող ՝ Parijat`
+    bluecupp3.style.fontSize = `14px`
+    bluecupp3.style.color = `white`
+    bluecupimg.style.marginLeft = `0px`
+})
+
+bluecup.addEventListener(`mouseleave` , function () {
+    bluecupImg.style.height = `400px`
+    bluecup.style.backgroundColor = `transparent`
+    bluecupp1.innerText = ``
+    bluecupp2.innerText = ``
+    bluecupp3.innerText = ``
+    bluecupimg.style.marginLeft = `0px`
+})
+
+let box = document.getElementById(`box`) ;
+let boxImg = document.getElementById(`boxImg`) ;
+let boxp1 = document.getElementById(`boxp1`) ;
+let boxp2 = document.getElementById(`boxp2`) ;
+let boxp3 = document.getElementById(`boxp3`) ;
+let boximg = document.querySelector(`#box div`) ;
+
+box.addEventListener(`mouseover` , function () {
+    box.style.transition = `all , 0.5s`
+    box.style.display = `flex` 
+    box.style.justifyContent = `center` 
+    box.style.alignItems = `center`
+    box.style.flexDirection = `column`
+    boxImg.style.height = `0px`
+    box.style.backgroundColor = `green`
+    boxp1.innerText = `ազդող նյութ ՝ hexaconazol 50g/l`
+    boxp1.style.fontSize = `14px`
+    boxp1.style.color = `white`
+    boxp2.innerText = `պատրաստված է Հնդկաստանում`
+    boxp2.style.fontSize = `14px`
+    boxp2.style.color = `white`
+    boxp3.innerText = `ստեղծող ՝ Parijat`
+    boxp3.style.fontSize = `14px`
+    boxp3.style.color = `white`
+    boximg.style.marginLeft = `0px`
+})
+
+box.addEventListener(`mouseleave` , function () {
+    boxImg.style.height = `400px`
+    box.style.backgroundColor = `transparent`
+    boxp1.innerText = ``
+    boxp2.innerText = ``
+    boxp3.innerText = ``
+    boximg.style.marginLeft = `0px`
+})
+
+let boss = document.getElementById(`boss`) ;
+let bossImg = document.getElementById(`bossImg`) ;
+let bossp1 = document.getElementById(`bossp1`) ;
+let bossp2 = document.getElementById(`bossp2`) ;
+let bossp3 = document.getElementById(`bossp3`) ;
+let bossimg = document.querySelector(`#boss div`) ;
+
+boss.addEventListener(`mouseover` , function () {
+   boss.style.transition = `all , 0.5s`
+   boss.style.display = `flex` 
+   boss.style.justifyContent = `center` 
+   boss.style.alignItems = `center`
+   boss.style.flexDirection = `column`
+   bossImg.style.height = `0px`
+   boss.style.backgroundColor = `green`
+   bossp1.innerText = `ազդող նյութ ՝ hexakonazol 5%`
+   bossp1.style.fontSize = `14px`
+   bossp1.style.color = `white`
+   bossp2.innerText = `պատրաստված է Հնդկաստանում`
+   bossp2.style.fontSize = `14px`
+   bossp2.style.color = `white`
+   bossp3.innerText = `ստեղծող ՝ Parijat`
+   bossp3.style.fontSize = `14px`
+   bossp3.style.color = `white`
+   bossimg.style.marginLeft = `0px`
+})
+
+boss.addEventListener(`mouseleave` , function () {
+   bossImg.style.height = `400px`
+   boss.style.backgroundColor = `transparent`
+   bossp1.innerText = ``
+   bossp2.innerText = ``
+   bossp3.innerText = ``
+   bossimg.style.marginLeft = `0px`
+})
+
+let dvakarb = document.getElementById(`dvakarb`) ;
+let dvakarbImg = document.getElementById(`dvakarbImg`) ;
+let dvakarbp1 = document.getElementById(`dvakarbp1`) ;
+let dvakarbp2 = document.getElementById(`dvakarbp2`) ;
+let dvakarbp3 = document.getElementById(`dvakarbp3`) ;
+let dvakarbimg = document.querySelector(`#dvakarb div`) ;
+
+dvakarb.addEventListener(`mouseover` , function () {
+    dvakarb.style.transition = `all , 0.5s`
+    dvakarb.style.display = `flex` 
+    dvakarb.style.justifyContent = `center` 
+    dvakarb.style.alignItems = `center`
+    dvakarb.style.flexDirection = `column`
+    dvakarbImg.style.height = `0px`
+    dvakarb.style.backgroundColor = `green`
+    dvakarbp1.innerText = `ազդող նյութ ՝ proponacarb hidrocsid 722`
+    dvakarbp1.style.fontSize = `14px`
+    dvakarbp1.style.color = `white`
+    dvakarbp2.innerText = `պատրաստված է գերմանիայում`
+    dvakarbp2.style.fontSize = `14px`
+    dvakarbp2.style.color = `white`
+    dvakarbp3.innerText = `ստեղծող ՝ DVA agro`
+    dvakarbp3.style.fontSize = `14px`
+    dvakarbp3.style.color = `white`
+    dvakarbimg.style.marginLeft = `0px`
+})
+
+dvakarb.addEventListener(`mouseleave` , function () {
+    dvakarbImg.style.height = `400px`
+    dvakarb.style.backgroundColor = `transparent`
+    dvakarbp1.innerText = ``
+    dvakarbp2.innerText = ``
+    dvakarbp3.innerText = ``
+    dvakarbimg.style.marginLeft = `0px`
+})
+
+let favorit = document.getElementById(`favorit`) ;
+let favoritImg = document.getElementById(`favoritImg`) ;
+let favoritp1 = document.getElementById(`favoritp1`) ;
+let favoritp2 = document.getElementById(`favoritp2`) ;
+let favoritp3 = document.getElementById(`favoritp3`) ;
+let favoritimg = document.querySelector(`#favorit div`) ;
+
+favorit.addEventListener(`mouseover` , function () {
+    favorit.style.transition = `all , 0.5s`
+    favorit.style.display = `flex` 
+    favorit.style.justifyContent = `center` 
+    favorit.style.alignItems = `center`
+    favorit.style.flexDirection = `column`
+    favoritImg.style.height = `0px`
+    favorit.style.backgroundColor = `green`
+    favoritp1.innerText = `ազդող նյութ ՝ propineb 700g/l`
+    favoritp1.style.fontSize = `14px`
+    favoritp1.style.color = `white`
+    favoritp2.innerText = `պատրաստված է գերմանիայում`
+    favoritp2.style.fontSize = `14px`
+    favoritp2.style.color = `white`
+    favoritp3.innerText = `ստեղծող ՝ DVA agro`
+    favoritp3.style.fontSize = `14px`
+    favoritp3.style.color = `white`
+    favoritimg.style.marginLeft = `0px`
+})
+
+favorit.addEventListener(`mouseleave` , function () {
+    favoritImg.style.height = `400px`
+    favorit.style.backgroundColor = `transparent`
+    favoritp1.innerText = ``
+    favoritp2.innerText = ``
+    favoritp3.innerText = ``
+    favoritimg.style.marginLeft = `0px`
+})
+
+let fundazon = document.getElementById(`fundazon`) ;
+let fundazonImg = document.getElementById(`fundazonImg`) ;
+let fundazonp1 = document.getElementById(`fundazonp1`) ;
+let fundazonp2 = document.getElementById(`fundazonp2`) ;
+let fundazonp3 = document.getElementById(`fundazonp3`) ;
+let fundazonimg = document.querySelector(`#fundazon div`) ;
+
+fundazon.addEventListener(`mouseover` , function () {
+    fundazon.style.transition = `all , 0.5s`
+    fundazon.style.display = `flex` 
+    fundazon.style.justifyContent = `center` 
+    fundazon.style.alignItems = `center`
+    fundazon.style.flexDirection = `column`
+    fundazonImg.style.height = `0px`
+    fundazon.style.backgroundColor = `green`
+    fundazonp1.innerText = `ազդող նյութ ՝ karbendazim 120g/kg + mankoceb  630g/kg`
+    fundazonp1.style.fontSize = `14px`
+    fundazonp1.style.color = `white`
+    fundazonp2.innerText = `պատրաստված է Հնդկաստանում`
+    fundazonp2.style.fontSize = `14px`
+    fundazonp2.style.color = `white`
+    fundazonp3.innerText = `ստեղծող ՝ Parijat`
+    fundazonp3.style.fontSize = `14px`
+    fundazonp3.style.color = `white`
+    fundazonimg.style.marginLeft = `0px`
+})
+
+fundazon.addEventListener(`mouseleave` , function () {
+    fundazonImg.style.height = `400px`
+    fundazon.style.backgroundColor = `transparent`
+    fundazonp1.innerText = ``
+    fundazonp2.innerText = ``
+    fundazonp3.innerText = ``
+    fundazonimg.style.marginLeft = `0px`
+})
+
+let korus = document.getElementById(`korus`) ;
+let korusImg = document.getElementById(`korusImg`) ;
+let korusp1 = document.getElementById(`korusp1`) ;
+let korusp2 = document.getElementById(`korusp2`) ;
+let korusp3 = document.getElementById(`korusp3`) ;
+let korusimg = document.querySelector(`#korus div`) ;
+
+korus.addEventListener(`mouseover` , function () {
+    korus.style.transition = `all , 0.5s`
+    korus.style.display = `flex` 
+    korus.style.justifyContent = `center` 
+    korus.style.alignItems = `center`
+    korus.style.flexDirection = `column`
+    korusImg.style.height = `0px`
+    korus.style.backgroundColor = `green`
+    korusp1.innerText = `ազդող նյութ ՝ ciprodinil 750`
+    korusp1.style.fontSize = `14px`
+    korusp1.style.color = `white`
+    korusp2.innerText = `պատրաստված է գերմանիայում`
+    korusp2.style.fontSize = `14px`
+    korusp2.style.color = `white`
+    korusp3.innerText = `ստեղծող ՝ DVA agro`
+    korusp3.style.fontSize = `14px`
+    korusp3.style.color = `white`
+    korusimg.style.marginLeft = `0px`
+})
+
+korus.addEventListener(`mouseleave` , function () {
+    korusImg.style.height = `400px`
+    korus.style.backgroundColor = `transparent`
+    korusp1.innerText = ``
+    korusp2.innerText = ``
+    korusp3.innerText = ``
+    korusimg.style.marginLeft = `0px`
+})
+
+
+let krezo = document.getElementById(`krezo`) ;
+let krezoImg = document.getElementById(`krezoImg`) ;
+let krezop1 = document.getElementById(`krezop1`) ;
+let krezop2 = document.getElementById(`krezop2`) ;
+let krezop3 = document.getElementById(`krezop3`) ;
+let krezoimg = document.querySelector(`#krezo div`) ;
+
+krezo.addEventListener(`mouseover` , function () {
+    krezo.style.transition = `all , 0.5s`
+    krezo.style.display = `flex` 
+    krezo.style.justifyContent = `center` 
+    krezo.style.alignItems = `center`
+    krezo.style.flexDirection = `column`
+    krezoImg.style.height = `0px`
+    krezo.style.backgroundColor = `green`
+    krezop1.innerText = `ազդող նյութ ՝ krezoxin metil 500`
+    krezop1.style.fontSize = `14px`
+    krezop1.style.color = `white`
+    krezop2.innerText = `պատրաստված է գերմանիայում`
+    krezop2.style.fontSize = `14px`
+    krezop2.style.color = `white`
+    krezop3.innerText = `ստեղծող ՝ DVA agro`
+    krezop3.style.fontSize = `14px`
+    krezop3.style.color = `white`
+    krezoimg.style.marginLeft = `0px`
+})
+
+krezo.addEventListener(`mouseleave` , function () {
+    krezoImg.style.height = `400px`
+    krezo.style.backgroundColor = `transparent`
+    krezop1.innerText = ``
+    krezop2.innerText = ``
+    krezop3.innerText = ``
+    krezoimg.style.marginLeft = `0px`
+})
+
+let tebusol = document.getElementById(`tebusol`) ;
+let tebusolImg = document.getElementById(`tebusolImg`) ;
+let tebusolp1 = document.getElementById(`tebusolp1`) ;
+let tebusolp2 = document.getElementById(`tebusolp2`) ;
+let tebusolp3 = document.getElementById(`tebusolp3`) ;
+let tebusolimg = document.querySelector(`#tebusol div`) ;
+
+tebusol.addEventListener(`mouseover` , function () {
+    tebusol.style.transition = `all , 0.5s`
+    tebusol.style.display = `flex` 
+    tebusol.style.justifyContent = `center` 
+    tebusol.style.alignItems = `center`
+    tebusol.style.flexDirection = `column`
+    tebusolImg.style.height = `0px`
+    tebusol.style.backgroundColor = `green`
+    tebusolp1.innerText = `ազդող նյութ ՝ tebukonazole 100g/kg + solphur 650g/kg`
+    tebusolp1.style.fontSize = `14px`
+    tebusolp1.style.color = `white`
+    tebusolp2.innerText = `պատրաստված է Հնդկաստանում`
+    tebusolp2.style.fontSize = `14px`
+    tebusolp2.style.color = `white`
+    tebusolp3.innerText = `ստեղծող ՝ JUL`
+    tebusolp3.style.fontSize = `14px`
+    tebusolp3.style.color = `white`
+    tebusolimg.style.marginLeft = `0px`
+})
+
+tebusol.addEventListener(`mouseleave` , function () {
+    tebusolImg.style.height = `400px`
+    tebusol.style.backgroundColor = `transparent`
+    tebusolp1.innerText = ``
+    tebusolp2.innerText = ``
+    tebusolp3.innerText = ``
+    tebusolimg.style.marginLeft = `0px`
+})
+
+let victoria = document.getElementById(`victoria`) ;
+let victoriaImg = document.getElementById(`victoriaImg`) ;
+let victoriap1 = document.getElementById(`victoriap1`) ;
+let victoriap2 = document.getElementById(`victoriap2`) ;
+let victoriap3 = document.getElementById(`victoriap3`) ;
+let victoriaimg = document.querySelector(`#victoria div`) ;
+
+victoria.addEventListener(`mouseover` , function () {
+    victoria.style.transition = `all , 0.5s`
+    victoria.style.display = `flex` 
+    victoria.style.justifyContent = `center` 
+    victoria.style.alignItems = `center`
+    victoria.style.flexDirection = `column`
+    victoriaImg.style.height = `0px`
+    victoria.style.backgroundColor = `green`
+    victoriap1.innerText = `ազդող նյութ ՝ mancozrb 64% + metalaxil 8%`
+    victoriap1.style.fontSize = `14px`
+    victoriap1.style.color = `white`
+    victoriap2.innerText = `պատրաստված է Հնդկաստանում`
+    victoriap2.style.fontSize = `14px`
+    victoriap2.style.color = `white`
+    victoriap3.innerText = `ստեղծող ՝ JUL`
+    victoriap3.style.fontSize = `14px`
+    victoriap3.style.color = `white`
+    victoriaimg.style.marginLeft = `0px`
+})
+
+victoria.addEventListener(`mouseleave` , function () {
+    victoriaImg.style.height = `400px`
+    victoria.style.backgroundColor = `transparent`
+    victoriap1.innerText = ``
+    victoriap2.innerText = ``
+    victoriap3.innerText = ``
+    victoriaimg.style.marginLeft = `0px`
+})
+
+let kurzak = document.getElementById(`kurzak`) ;
+let kurzakImg = document.getElementById(`kurzakImg`) ;
+let kurzakp1 = document.getElementById(`kurzakp1`) ;
+let kurzakp2 = document.getElementById(`kurzakp2`) ;
+let kurzakp3 = document.getElementById(`kurzakp3`) ;
+let kurzakimg = document.querySelector(`#kurzak div`) ;
+
+kurzak.addEventListener(`mouseover` , function () {
+    kurzak.style.transition = `all , 0.5s`
+    kurzak.style.display = `flex` 
+    kurzak.style.justifyContent = `center` 
+    kurzak.style.alignItems = `center`
+    kurzak.style.flexDirection = `column`
+    kurzakImg.style.height = `0px`
+    kurzak.style.backgroundColor = `green`
+    kurzakp1.innerText = `ազդող նյութ ՝ copper oxicolide 250g/kg + cymoxanil 40g/kg`
+    kurzakp1.style.fontSize = `14px`
+    kurzakp1.style.color = `white`
+    kurzakp2.innerText = `պատրաստված է գերմանիայում`
+    kurzakp2.style.fontSize = `14px`
+    kurzakp2.style.color = `white`
+    kurzakp3.innerText = `ստեղծող ՝ DVA agro`
+    kurzakp3.style.fontSize = `14px`
+    kurzakp3.style.color = `white`
+    kurzakimg.style.marginLeft = `0px`
+})
+
+kurzak.addEventListener(`mouseleave` , function () {
+    kurzakImg.style.height = `400px`
+    kurzak.style.backgroundColor = `transparent`
+    kurzakp1.innerText = ``
+    kurzakp2.innerText = ``
+    kurzakp3.innerText = ``
+    kurzakimg.style.marginLeft = `0px`
+})
+
+let abek = document.getElementById(`abek`) ;
+let abekImg = document.getElementById(`abekImg`) ;
+let abekp1 = document.getElementById(`abekp1`) ;
+let abekp2 = document.getElementById(`abekp2`) ;
+let abekp3 = document.getElementById(`abekp3`) ;
+let abekimg = document.querySelector(`#abek div`) ;
+
+abek.addEventListener(`mouseover` , function () {
+    abek.style.transition = `all , 0.5s`
+    abek.style.display = `flex` 
+    abek.style.justifyContent = `center` 
+    abek.style.alignItems = `center`
+    abek.style.flexDirection = `column`
+    abekImg.style.height = `0px`
+    abek.style.backgroundColor = `green`
+    abekp1.innerText = `ազդող նյութ ՝ abamektin 18g/l`
+    abekp1.style.fontSize = `14px`
+    abekp1.style.color = `white`
+    abekp2.innerText = `պատրաստված է Հնդկաստանում`
+    abekp2.style.fontSize = `14px`
+    abekp2.style.color = `white`
+    abekp3.innerText = `ստեղծող ՝ Parijat`
+    abekp3.style.fontSize = `14px`
+    abekp3.style.color = `white`
+    abekimg.style.marginLeft = `0px`
+})
+
+abek.addEventListener(`mouseleave` , function () {
+    abekImg.style.height = `400px`
+    abek.style.backgroundColor = `transparent`
+    abekp1.innerText = ``
+    abekp2.innerText = ``
+    abekp3.innerText = ``
+    abekimg.style.marginLeft = `0px`
+})
+
+let menu = document.getElementById(`menu`) ;
+let x = true
+menu.addEventListener(`click` , function(){
+console.log(x);
+    if (x === true) {
+        menu.style.backgroundImage = `url(../images/close_img-removebg-preview.png)`
+        console.log(x);
+        x = false
+    }else{
+        menu.style.backgroundImage = `url(../images/menu-removebg-preview.png)`
+        console.log(x);
+        x = true
+    }
+})
+    </script>
+</body>
+</html>
